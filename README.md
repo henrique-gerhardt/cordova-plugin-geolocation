@@ -21,7 +21,7 @@ description: Access GPS data.
 #         under the License.
 -->
 
-# cordova-plugin-geolocation
+# cordova-plugin-geolocation (With duplicated location uses feature fix)
 
 [![Android Testsuite](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/android.yml/badge.svg)](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/android.yml) [![Chrome Testsuite](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/chrome.yml/badge.svg)](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/chrome.yml) [![iOS Testsuite](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/ios.yml/badge.svg)](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/ios.yml) [![Lint Test](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/lint.yml/badge.svg)](https://github.com/apache/cordova-plugin-geolocation/actions/workflows/lint.yml)
 
@@ -71,17 +71,9 @@ are not available until after the `deviceready` event.
 
 ## Installation
 
-This requires cordova 5.0+ ( current stable 1.0.0 )
-
-    cordova plugin add cordova-plugin-geolocation
-
-Older versions of cordova can still install via the deprecated id ( stale 0.3.12 )
-
-    cordova plugin add org.apache.cordova.geolocation
-
 It is also possible to install via repo url directly ( unstable )
 
-    cordova plugin add https://github.com/apache/cordova-plugin-geolocation.git
+    cordova plugin add https://github.com/henrique-gerhardt/cordova-plugin-geolocation.git --nofetch
 
 ## Supported Platforms
 
