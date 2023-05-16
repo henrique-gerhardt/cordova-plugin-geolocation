@@ -73,7 +73,7 @@ are not available until after the `deviceready` event.
 
 It is also possible to install via repo url directly ( unstable )
 
-    cordova plugin add https://github.com/henrique-gerhardt/cordova-plugin-geolocation.git --nofetch
+    cordova plugin add https://github.com/henrique-gerhardt/cordova-plugin-geolocation.git --nofetch --variable GPS_REQUIRED="false"
 
 ## Supported Platforms
 
